@@ -29,7 +29,8 @@ const Navbar = () => {
 
         {/* Place the subtitle next to the title */}
         <span className="text-sm font-serif text-black self-center font-medium ">
-          A Higher View for a Higher Purpose
+          {/* A Higher View for a Higher Purpose */}
+          Discover the Power of Scripture
         </span>
       </Link>
       {/* MOBILE MENU */}
@@ -61,7 +62,7 @@ const Navbar = () => {
         </div>
         {/* MOBILE LINK LIST */}
         <div
-          className={`w-full h-screen bg-[#e6e6ff] flex flex-col items-center justify-center gap-8 font-medium text-lg absolute top-16 transition-all ease-in-out ${
+          className={`w-full h-screen bg-[#99BDFF] flex flex-col items-center justify-center gap-8 font-medium text-lg absolute top-16 transition-all ease-in-out ${
             open ? "-right-0" : "-right-[100%]"
           }`}
         >

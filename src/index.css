@@ -10,3 +10,7 @@ body {
   overflow-x: hidden;
   font-family: "Arial", sans-serif;
 }
+
+.animatedButton {
+  animation-duration: 10000ms;
+}
